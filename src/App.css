@@ -1,0 +1,39 @@
+.App {
+  padding: 20px;
+  font-family: Arial;
+  max-width: 600px;
+  margin: auto;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.present {
+  background-color: #e1f7e1;
+  color: green;
+}
+
+.absent {
+  background-color: #fbe5e5;
+  color: red;
+}
+
+button {
+  padding: 5px 10px;
+}
